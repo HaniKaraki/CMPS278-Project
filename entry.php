@@ -1,7 +1,7 @@
 <html>
     <head>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <script src="frameworks/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="frameworks/jquery-1.11.3.min.js"></script>
     <script src="js/index.js" type="text/javascript"></script>
     </head>
     
@@ -19,11 +19,11 @@
         </div>
         
         <div id="login_form">
-            <form class="myform">
+            <form class="myform"  action = "main.php">
 
  	          <input type="text" placeholder="username" name="user"><br>
 				<input type="password" placeholder="password" name="password"><br>
-				<input type="button" value="Login">
+				<input type="submit" value="Login">
             </form>
         </div>
         <div id="signup_form">

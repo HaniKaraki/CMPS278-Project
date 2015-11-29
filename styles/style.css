@@ -118,6 +118,31 @@ margin: 0;
     color: cyan;
 }
 
+.myform input[type=submit]{
+	width: 260px;
+	height: 35px;
+	background: transparent;
+	border: 2px solid #9e929e;
+	cursor: pointer;
+	border-radius: 9px;
+	color: #9e929e;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.myform input[type=submit]:hover{
+	opacity: 0.8;
+    color: cyan;
+}
+
+.myform input[type=submit]:active{
+	opacity: 0.6;
+    color: cyan;
+}
+
 ::-webkit-input-placeholder{
    color: #9e929e;
 }
