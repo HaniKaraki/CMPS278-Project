@@ -1,0 +1,128 @@
+#container{
+    margin: 0 auto;
+       display: table;
+    width: 320px;
+    top: 40%;
+    left:40%;
+    position: absolute;
+}
+#logInDiv{
+    float:right;
+    width: 150px;
+
+}
+
+#signUpDiv{
+    float: left;
+    width: 150px;
+}
+body{
+  /*  background-image: url(Frozen.jpg);*/
+  background-size: 100%;
+margin: 0; 
+    padding: 0;
+
+
+}
+#l{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(../images/Frozen.jpg);
+
+}
+.pannelButton {
+	-moz-box-shadow:  #ffffff;
+	-webkit-box-shadow:  #ffffff;
+	background-color:transparent;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	border-radius:9px;
+	border:2px solid #9e929e;
+	display:inline-block;
+	cursor:pointer;
+	color:#787878;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 24px;
+	text-decoration:none;
+}
+.pannelButton:hover {
+	background-color:transparent;
+    color: cyan;
+}
+.pannelButton:active {
+	position:relative;
+	top:1px;
+}
+.myform{
+    top:65%;
+    left:40%;
+    margin: 0 auto;
+    display: table;
+    width: 320px;
+    position: absolute;
+}
+.myform input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border:2px solid #9e929e ;
+	border-radius: 9px;
+	color: cyan;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+    margin-top: 10px;
+}
+
+.myform input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 2px solid #9e929e;
+	border-radius: 9px;
+	color: darkcyan;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.myform input[type=button]{
+	width: 260px;
+	height: 35px;
+	background: transparent;
+	border: 2px solid #9e929e;
+	cursor: pointer;
+	border-radius: 9px;
+	color: #9e929e;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.myform input[type=button]:hover{
+	opacity: 0.8;
+    color: cyan;
+}
+
+.myform input[type=button]:active{
+	opacity: 0.6;
+    color: cyan;
+}
+
+::-webkit-input-placeholder{
+   color: #9e929e;
+}
+
+::-moz-input-placeholder{
+   color: #9e929e;
+}
+
