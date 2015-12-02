@@ -1,0 +1,46 @@
+body
+{
+  font-family: Georgia;
+}
+
+#container
+{
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  background-color: #B9D9CE;
+  position: relative;
+  text-align: center;
+}
+
+#screen
+{
+  width :500px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  background-color: grey;
+}
+
+#openSeat
+{
+  width:50px;
+  height: 50px;
+  background-image: url("images/openSeat.png");
+  display: inline-block;
+  
+}
+
+#reservedSeat
+{
+  width:50px;
+  height: 50px;
+  background-image: url("images/reservedSeat.png");
+  display: inline-block;
+}
+#noSeat
+{
+  width:50px;
+  height: 50px;
+  display: inline-block;
+}

@@ -10,7 +10,7 @@
         <div id="container">
             
             <div id="logInDiv">
-                <button class="pannelButton" onclick="show_login()">Log In</button>
+                <bottun class="pannelButton" onclick="show_login()">Log In</bottun>
             </div>
             
             <div id ="singUpDiv">
@@ -19,7 +19,7 @@
         </div>
         
         <div id="login_form">
-            <form class="myform"  action = "main.php">
+            <form class="myform"  action = "home.php">
 
  	          <input type="text" placeholder="username" name="user"><br>
 				<input type="password" placeholder="password" name="password"><br>
