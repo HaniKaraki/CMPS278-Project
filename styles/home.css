@@ -1,0 +1,70 @@
+body{
+    background-image: url(../images/bg-body.jpg);
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+#navcon{
+    width:99%;
+    height: 185px;
+    background:url(../images/bg-header.png);
+
+
+}
+
+#homeContainer{
+    margin: 0 auto;
+    height: 80%;
+    width: 80%;
+    padding: 5px;
+    top:50px;
+    position: relative;
+
+}
+#important-events
+{
+    width :45%;
+    float :left;
+    color:#4682B4;
+
+
+}
+#important-events img{
+    width:150px;
+    height: 150px;
+
+}
+/*#important-events ul{
+    margin: 20px;
+    border: 2px solid #1E90FF;
+    list-style-type: none;
+    border-radius: 100px;
+    opacity: 0.7;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+
+}*/
+#line{
+    width: 100%;
+    float:left;
+    border-color:#1E90FF;
+}
+
+#important-events li:hover{
+opacity: 1;
+color: #EEE8AA;
+}
+
+.neverBullet
+{
+    list-style-type: none;
+}
+
+.video
+{
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 40%;
+
+}
