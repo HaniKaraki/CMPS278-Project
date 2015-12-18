@@ -1,8 +1,6 @@
 body
 {
   font-family: Georgia;
-  margin:0;
-  padding: 0;
 }
 
 #container
@@ -28,7 +26,7 @@ body
 {
   width:50px;
   height: 50px;
-  background-image: url("../images/openSeat.png");
+  background-image: url("images/openSeat.png");
   display: inline-block;
   
 }
@@ -37,7 +35,7 @@ body
 {
   width:50px;
   height: 50px;
-  background-image: url("../images/reservedSeat.png");
+  background-image: url("images/reservedSeat.png");
   display: inline-block;
 }
 #noSeat
